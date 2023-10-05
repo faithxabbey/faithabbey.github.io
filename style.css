@@ -1,0 +1,144 @@
+
+body {
+    max-width: 1000px;
+    margin: auto;
+    font-size: 20px;
+  }
+  p {
+    color: black;
+  }
+  h1{
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
+  }
+   h2, h3 {
+    color: black;
+    line-height: 2.5;
+  
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Additional styles for container, if needed */
+}
+
+.logo {
+    align-items: center;
+}
+  
+  img {
+    width: 400px;
+  }
+  
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family (stack):HelveticaNeue, "Helvetica Neue" Helvetica;  
+  }
+
+  a , li {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  header {
+    align-items: center;
+    background-color: lightgray;
+    width: 100%;
+  }
+  header a:hover {
+    text-decoration: underline cyan;
+    text-decoration-thickness: 4px;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    position: relative;
+  }
+  
+  .nav-links li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav-links li:hover > .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f2f2f2;
+  }
+  
+  
+  footer {
+    color: black;
+    background-color: lightgray;
+    padding: 20px;
+    Margin: 20px;
+  }
+  .articles-container {
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .article {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 5px;
+  background-color: #f2f2f2;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  }
+  .article h3 {
+  margin-top: 0;
+  }
+  .article p {
+  margin-bottom: 0;
+  }
+  .article img {
+  max-width: 100%;
+  height: auto;
+  }
+  .wellness {
+  width: calc(100% - 20px);
+  margin: 10px;
+  padding: 5px;
+  background-color: #f2f2f2;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  }
